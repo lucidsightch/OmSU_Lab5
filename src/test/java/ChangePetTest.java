@@ -17,7 +17,7 @@ public class ChangePetTest {
                 contentType(ContentType.JSON).
                 body("""
                 {
-                  "id": 11,
+                  "id": 7,
                   "name": "kotenok-meow",
                   "photoUrls": [
                     "string",
@@ -39,7 +39,7 @@ public class ChangePetTest {
         given(rs).
                 put().
         then().
-                body("name", equalTo("kotenok-gav")).
+                body("name", equalTo("kotenok-meow")).
         and().
                 body("photoUrls[0]", equalTo("string")).
         and().

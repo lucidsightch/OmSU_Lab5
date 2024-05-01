@@ -16,7 +16,7 @@ public class AddPetTest {
                 contentType(ContentType.JSON).
                 body("""
                 {
-                  "id": 11,
+                  "id": 7,
                   "name": "kotenok-gav",
                   "photoUrls": [
                     "string"

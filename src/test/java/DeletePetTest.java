@@ -15,15 +15,15 @@ public class DeletePetTest {
                 contentType(ContentType.JSON).
                 body("""
                 {
-                  "id": 999,
-                  "name": "kotenok-gav",
+                  "id": 7,
+                  "name": "kotenok-meow",
                   "photoUrls": [
                     "string"
                   ]
                 }""").
         post("https://petstore.swagger.io/v2/pet");
         rs = given().
-                baseUri("https://petstore.swagger.io/v2/pet/999");
+                baseUri("https://petstore.swagger.io/v2/pet/7");
     }
 
     @Test

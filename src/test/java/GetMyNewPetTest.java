@@ -11,7 +11,7 @@ public class GetMyNewPetTest {
     @BeforeClass
     public static void setUp() {
         rs = given().
-                baseUri("https://petstore.swagger.io/v2/pet/11");
+                baseUri("https://petstore.swagger.io/v2/pet/7");
     }
 
     @Test

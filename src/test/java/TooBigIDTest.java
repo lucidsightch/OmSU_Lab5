@@ -12,7 +12,7 @@ public class TooBigIDTest {
     @BeforeClass
     public static void setUp() {
         rs = given().
-                baseUri("https://petstore.swagger.io/v2/pet/9223372053184775808");
+                baseUri("https://petstore.swagger.io/v2/pet/9999999999999999999");
     }
 
     @Test
